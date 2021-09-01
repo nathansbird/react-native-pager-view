@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import PagerView, {
   PagerViewOnPageScrollEventData,
-} from 'react-native-pager-view';
+} from '@nathansbird/react-native-pager-view';
 
 import {
   ScalingDot,

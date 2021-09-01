@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, SafeAreaView, Animated, Text } from 'react-native';
 
-import PagerView from 'react-native-pager-view';
+import PagerView from '@nathansbird/react-native-pager-view';
 
 import { LikeCount } from './component/LikeCount';
 import { BGCOLOR } from './utils';

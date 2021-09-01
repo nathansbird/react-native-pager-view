@@ -9,5 +9,5 @@ import type { ViewPagerOnPageScrollEventData,ViewPagerOnPageSelectedEventData } 
 
 After:
 ```js
-import PagerView from 'react-native-pager-view';
-import type { PagerViewOnPageScrollEventData, PagerViewOnPageSelectedEventData } from 'react-native-pager-view';
+import PagerView from '@nathansbird/react-native-pager-view';
+import type { PagerViewOnPageScrollEventData, PagerViewOnPageSelectedEventData } from '@nathansbird/react-native-pager-view';

@@ -107,7 +107,7 @@ protected List<ReactPackage> getPackages() {
 ```js
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import PagerView from 'react-native-pager-view';
+import PagerView from '@nathansbird/react-native-pager-view';
 
 const MyPager = () => {
   return (

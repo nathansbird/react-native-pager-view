@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet, Text, ScrollView, TouchableOpacity } from 'react-native';
-import { NavigationContainer, useNavigation } from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { BasicPagerViewExample } from './BasicPagerViewExample';
 import { KeyboardExample } from './KeyboardExample';
@@ -36,7 +36,6 @@ const examples = [
 // const examples = [{ component: BasicPagerViewExample, name: 'Basic Example' }];
 
 function App() {
-  const navigation = useNavigation();
   return (
     <ScrollView>
       {examples.map((example) => (
@@ -44,9 +43,7 @@ function App() {
           key={example.name}
           style={styles.exampleTouchable}
           onPress={() => {
-            navigation.navigate({
-              key: example.name,
-            });
+            //navigation.navigate({ name: example.name });
           }}
         >
           <Text style={styles.exampleText}>{example.name}</Text>

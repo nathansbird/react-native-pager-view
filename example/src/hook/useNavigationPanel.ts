@@ -3,7 +3,7 @@ import type {
   PageScrollStateChangedNativeEvent,
   PagerViewOnPageScrollEventData,
   PagerViewOnPageSelectedEventData,
-} from 'react-native-pager-view';
+} from '@nathansbird/react-native-pager-view';
 import { Animated } from 'react-native';
 import { createPage, CreatePage } from '../utils';
 import { useCallback, useMemo, useRef, useState } from 'react';
