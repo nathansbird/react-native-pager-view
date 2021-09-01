@@ -1,6 +1,7 @@
 {
   "name": "@nathansbird/react-native-pager-view",
   "version": "5.4.1",
+  "private": false,
   "description": "React Native wrapper for Android and iOS ViewPager",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -36,13 +37,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/callstack/react-native-pager-view",
-  "author": "troZee <hello@callstack.com> (https://github.com/callstack)",
+  "repository": "https://github.com/nathansbird/react-native-pager-view",
+  "author": "Nathan Bird",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/callstack/react-native-pager-view/issues"
+    "url": "https://github.com/nathansbird/react-native-pager-view/issues"
   },
-  "homepage": "https://github.com/callstack/react-native-pager-view#readme",
+  "homepage": "https://github.com/nathansbird/react-native-pager-view#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
