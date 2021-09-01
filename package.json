@@ -1,6 +1,6 @@
 {
   "name": "@nathansbird/react-native-pager-view",
-  "version": "5.4.1",
+  "version": "5.4.2",
   "private": false,
   "description": "React Native wrapper for Android and iOS ViewPager",
   "main": "lib/commonjs/index",
