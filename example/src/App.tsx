@@ -45,7 +45,7 @@ function App() {
           style={styles.exampleTouchable}
           onPress={() => {
             navigation.navigate({
-              key: example.name
+              key: example.name,
             });
           }}
         >
