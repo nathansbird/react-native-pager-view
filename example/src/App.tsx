@@ -10,6 +10,7 @@ import { ScrollablePagerViewExample } from './ScrollablePagerViewExample';
 import { ScrollViewInsideExample } from './ScrollViewInsideExample';
 import HeadphonesCarouselExample from './HeadphonesCarouselExample';
 import PaginationDotsExample from './PaginationDotsExample';
+import { NestPagerView } from './NestPagerView';
 
 const examples = [
   { component: BasicPagerViewExample, name: 'Basic Example' },
@@ -26,6 +27,10 @@ const examples = [
     component: ScrollViewInsideExample,
     name: 'ScrollView inside PagerView Example',
   },
+  {
+    component: NestPagerView,
+    name: 'Nest PagerView Example',
+  },
 ];
 
 // const examples = [{ component: BasicPagerViewExample, name: 'Basic Example' }];
@@ -39,7 +44,9 @@ function App() {
           key={example.name}
           style={styles.exampleTouchable}
           onPress={() => {
-            navigation.navigate(example.name);
+            navigation.navigate({
+              key: example.name
+            });
           }}
         >
           <Text style={styles.exampleText}>{example.name}</Text>
